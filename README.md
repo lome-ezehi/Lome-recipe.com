@@ -1,8 +1,7 @@
 # Recipe.com
 A recipe website for foodies, built with HTML/CSS and Javascript.
 
-### Visit the Website:
-https://lome-ezehi.github.io/Lome-recipe.com/
+**[Visit the Website:](https://lome-ezehi.github.io/Lome-recipe.com/)**
 
 <img src="./img/logo.png" width="200" height="100">
 
