@@ -25,6 +25,18 @@
             .slider{
                 z-index: 0;
             }
+            /* label underline focus color */
+            .input-field input:focus {
+                border-bottom: 1px solid #ef6c00 !important;
+                box-shadow: 0 1px 0 0 #ef6c00 !important;
+            }
+            label {
+                color: grey;
+            }
+
+            .input-field .prefix.active, label.active{
+                color: #ef6c00 !important;
+            }
             
         </style>
     </head>
@@ -735,6 +747,44 @@
 
         </main>
         
+        <div class="container ">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h3 class="orange-text text-darken-4">Contact Us Today!</h3>
+                    <h5>The key to more success is to have a lot of pillows. We are the Best.</h5>
+                    <br>
+                    <div class="btn btn-large orange darken-4">Call Us Now <i class="material-icons right">phone</i> </div>
+                </div>
+
+                <div class="col l6 s12">                
+                            <form action="">
+                                <div class="col s12 input-field">
+                                    <i class="material-icons prefix">person</i>
+                                    <label for="name">Your name</label>
+                                    <input type="text" name="name" id="name">
+                                </div>
+                                <div class="col s12 input-field">
+                                    <i class="material-icons prefix">email</i>
+                                    <input type="email" name="name" id="email" >
+                                    <label for="email">Enter your Email</label>
+                                </div>
+                                <div class="col s12 input-field">
+                                    <i class="material-icons prefix">lock</i>
+                                    <input type="text" name="text" id="text" >                
+                                    <label for="text">Enter Your Message</label>
+                                </div>
+                                <div class="col s12 container center-align">
+                                    <input type="submit" name="button" id="button" class="btn btn-large orange darken-4">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <br>
+        <br>
+                
 
         <!-- footer -->
          <footer class="page-footer black">
